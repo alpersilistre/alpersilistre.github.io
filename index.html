@@ -271,7 +271,7 @@
     <script>
         if('serviceWorker' in navigator) {
             navigator.serviceWorker
-            .register('/sw.js')
+            .register('/sw.js', { 'max-age': 0 })
             .then(function() { console.log('Service Worker Registered'); })
         }
     </script>
