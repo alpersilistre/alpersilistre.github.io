@@ -270,6 +270,13 @@
     <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="js/min/main-min.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/sw.js')
+                .then(function () { console.log("Service Worker Registered"); });
+        }
+    </script>
 </body>
 
 </html>
