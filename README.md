@@ -1,3 +1,3 @@
-# https://alpersilistre.github.io
+# https://www.alpersilistre.com
 
 Personal CV Website
