@@ -106,7 +106,7 @@ p {
   padding-top: 30px;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 .sidebar-wrapper .container-block-title {
   text-transform: uppercase;
@@ -299,3 +299,7 @@ p {
 }
 /* Large devices (large desktops, 1200px and up) */
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+.languages-container {
+  padding-bottom: 30px !important;
+}
