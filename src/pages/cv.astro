@@ -1,0 +1,117 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    As a Cloud Solution Architect at Portera, I leverage my technical expertise and analytical skills to deliver effective and scalable cloud-based software solutions for our international clients. With over 9 years of experience in web and cloud technologies, I have a strong background in software development, architecture, and project management, using C# with .NET, SQL, and various front-end technologies.
+    </br></br>
+    In my current role, I lead and manage complex projects that involve cross-functional teams, business stakeholders, and technical teams, ensuring quality, efficiency, and alignment with the client's needs and goals. I also have extensive knowledge and certifications in Azure and DevOps, which enable me to create and maintain robust and secure cloud platforms and pipelines. Additionally, I have published multiple academic papers in the software testing area, demonstrating my passion and contribution to the field during my Master's Degree.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="MSc., Information Technology"
+      subtitle="2017 to 2021 at Ege University, Izmir, Turkey"
+    />
+    <TimeLineElement
+      title="BSc., Software Engineering"
+      subtitle="2010 to 2015 at Izmir University of Economics, Izmir, Turkey"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Cloud Solution Architect at Portera"
+      subtitle="From Jan 2022 to today at Portera, Amsterdam, Netherlands"
+    >
+      I'm leading cloud-based software projects we developed as a team for our international clients. As a seasoned Software Engineer and Solution Architect, I have been leveraging my technical expertise and analytical skills to drive effective solutions for my current organization. With a background in software development, architecture, and project management, I have been able to create efficient and scalable systems that have improved business processes and increased overall productivity. My ability to work collaboratively with cross-functional teams, including business stakeholders and technical teams, has enabled me to deliver complex projects on time and within budget.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Software Engineer at Portera"
+      subtitle="From Jan 2020 to Dec 2021 at Portera, Istanbul, Turkey"
+    >
+      Managing and developing the cloud platform of the multi-national client, where dozens of applications are hosted in its Azure platform. The activities are; configuring and writing Infrastructure as Code (YAML) for CI/CD pipelines, writing documentation, automating daily/weekly management jobs such as provisioning new applications to Azure as quickly as possible with correct IAM roles, ensuring the applications following the governance standards, developing applications whenever necessary for the platform. It's a combination of DevOps and application development experience.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Software Engineer at broadAngle"
+      subtitle="From Jun 2015 to Dec 2019 at broadAngle, Izmir, Turkey"
+    >
+      Full-stack Software Engineer in Microsoft technologies. I worked on cloud based Web projects primarily with .NET & .NET Core with C#, SQL Server and Entity Framework. I used many libraries such as Angular 2+, Vue.js, jQuery, Bootstrap, etc. for client-side.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://learn.microsoft.com/en-gb/users/alpersilistre/credentials/bae2dbdd5f338a04" target="_blank"> Azure Solutions Architect Expert</a>
+    </li>
+    <li>
+      <a href="https://learn.microsoft.com/en-us/users/alpersilistre/credentials/6e65b568380e1b46" target="_blank"> Azure DevOps Engineer Expert</a>
+    </li>
+    <li>
+      <a href="https://learn.microsoft.com/en-us/users/alpersilistre/credentials/5dd8ffa0aadbf551" target="_blank"> Azure AI Engineer Associate</a>
+    </li>
+    <li>
+      <a href="https://learn.microsoft.com/en-us/users/alpersilistre/credentials/3db6918826aed4aa" target="_blank"> Azure Developer Associate</a>
+    </li>
+    <li>
+      <a href="https://learn.microsoft.com/en-us/users/alpersilistre/credentials/c458e217ed367f19" target="_blank"> Azure Administrator Associate</a>
+    </li>
+    <li>
+      <a href="https://www.credly.com/badges/78271ae7-6fdd-43d8-918a-1b7bb791d308/" target="_blank"> Google Professional Cloud Architect Certification</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Academic</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://ieeexplore.ieee.org/document/9422704" target="_blank"> Model-Based Ideal Testing of GUI Programs–Approach and Case Studies</a>
+    </li>
+    <li>
+      <a href="https://ieeexplore.ieee.org/document/9247072" target="_blank"> Models in Graphical User Interface Testing: Study Design</a>
+    </li>
+    <li>
+      <a href="https://ieeexplore.ieee.org/document/9222878" target="_blank"> Community Detection in Model-based Testing to Address Scalability: Study Design</a>
+    </li>
+    <li>
+      <a href="https://ieeexplore.ieee.org/document/8859463" target="_blank"> Random Test Generation from Regular Expressions for Graphical User Interface (GUI) Testing</a>
+    </li>
+  </ul>
+
+  <!--
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>.NET</li>
+    <li>ASP.NET</li>
+    <li>C#</li>
+    <li>Azure</li>
+    <li>GCP</li>
+    <li>SQL</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+  </ul>
+  -->
+</BaseLayout>
