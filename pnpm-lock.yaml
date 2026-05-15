@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@astrojs/mdx':
         specifier: ^2.0.3
-        version: 2.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3))
+        version: 2.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0))
       '@astrojs/rss':
         specifier: ^3.0.0
         version: 3.0.0
@@ -19,10 +19,10 @@ importers:
         version: 3.0.1
       '@astrojs/tailwind':
         specifier: ^5.0.3
-        version: 5.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3))(tailwindcss@3.3.5)
+        version: 5.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0))(tailwindcss@3.3.5)
       astro:
         specifier: ^6.1.10
-        version: 6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)
+        version: 6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0)
       daisyui:
         specifier: ^4.4.10
         version: 4.4.10(postcss@8.5.14)
@@ -2418,9 +2418,10 @@ packages:
   yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
 
-  yaml@2.3.4:
-    resolution: {integrity: sha512-8aAvwVUSHpfEqTQ4w/KMlf3HcRdt50E5ODIQJBw1fQ5RL34xabzxtUlzTXVqc4rkZsPbvrXKWnABCD7kWSmocA==}
-    engines: {node: '>= 14'}
+  yaml@2.9.0:
+    resolution: {integrity: sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
 
   yargs-parser@22.0.0:
     resolution: {integrity: sha512-rwu/ClNdSMpkSrUb+d6BRsSkLUq1fmfsY6TOpYzTwvwkg1/NRG85KBy3kq++A8LKQwX6lsu+aWad+2khvuXrqw==}
@@ -2494,12 +2495,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@2.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3))':
+  '@astrojs/mdx@2.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0))':
     dependencies:
       '@astrojs/markdown-remark': 4.0.1
       '@mdx-js/mdx': 3.0.0
       acorn: 8.11.2
-      astro: 6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)
+      astro: 6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0)
       es-module-lexer: 1.4.1
       estree-util-visit: 2.0.0
       github-slugger: 2.0.0
@@ -2533,9 +2534,9 @@ snapshots:
       sitemap: 7.1.1
       zod: 3.21.1
 
-  '@astrojs/tailwind@5.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3))(tailwindcss@3.3.5)':
+  '@astrojs/tailwind@5.0.3(astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0))(tailwindcss@3.3.5)':
     dependencies:
-      astro: 6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)
+      astro: 6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0)
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -3055,7 +3056,7 @@ snapshots:
 
   astring@1.8.6: {}
 
-  astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3):
+  astro@6.1.10(@types/node@24.10.1)(rollup@4.60.3)(typescript@5.9.3)(yaml@2.9.0):
     dependencies:
       '@astrojs/compiler': 3.0.1
       '@astrojs/internal-helpers': 0.9.0
@@ -3106,8 +3107,8 @@ snapshots:
       unist-util-visit: 5.1.0
       unstorage: 1.17.5
       vfile: 6.0.3
-      vite: 7.3.3(@types/node@24.10.1)
-      vitefu: 1.1.3(vite@7.3.3(@types/node@24.10.1))
+      vite: 7.3.3(@types/node@24.10.1)(yaml@2.9.0)
+      vitefu: 1.1.3(vite@7.3.3(@types/node@24.10.1)(yaml@2.9.0))
       xxhash-wasm: 1.1.0
       yargs-parser: 22.0.0
       zod: 4.4.3
@@ -4681,7 +4682,7 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.32):
     dependencies:
       lilconfig: 3.0.0
-      yaml: 2.3.4
+      yaml: 2.9.0
     optionalDependencies:
       postcss: 8.4.32
 
@@ -5427,7 +5428,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@7.3.3(@types/node@24.10.1):
+  vite@7.3.3(@types/node@24.10.1)(yaml@2.9.0):
     dependencies:
       esbuild: 0.27.7
       fdir: 6.5.0(picomatch@4.0.4)
@@ -5438,10 +5439,11 @@ snapshots:
     optionalDependencies:
       '@types/node': 24.10.1
       fsevents: 2.3.3
+      yaml: 2.9.0
 
-  vitefu@1.1.3(vite@7.3.3(@types/node@24.10.1)):
+  vitefu@1.1.3(vite@7.3.3(@types/node@24.10.1)(yaml@2.9.0)):
     optionalDependencies:
-      vite: 7.3.3(@types/node@24.10.1)
+      vite: 7.3.3(@types/node@24.10.1)(yaml@2.9.0)
 
   web-namespaces@2.0.1: {}
 
@@ -5453,7 +5455,7 @@ snapshots:
 
   yallist@4.0.0: {}
 
-  yaml@2.3.4: {}
+  yaml@2.9.0: {}
 
   yargs-parser@22.0.0: {}
 
