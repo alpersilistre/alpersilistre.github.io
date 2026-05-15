@@ -1083,8 +1083,8 @@ packages:
   fast-wrap-ansi@0.2.0:
     resolution: {integrity: sha512-rLV8JHxTyhVmFYhBJuMujcrHqOT2cnO5Zxj37qROj23CP39GXubJRBUFF0z8KFK77Uc0SukZUf7JZhsVEQ6n8w==}
 
-  fast-xml-parser@4.2.7:
-    resolution: {integrity: sha512-J8r6BriSLO1uj2miOk1NW0YVm8AGOOu3Si2HQp/cSmo6EA4m3fcwu2WKjJ4RK9wMLBtg69y1kS8baDiQBR41Ig==}
+  fast-xml-parser@4.5.6:
+    resolution: {integrity: sha512-Yd4vkROfJf8AuJrDIVMVmYfULKmIJszVsMv7Vo71aocsKgFxpdlpSHXSaInvyYfgw2PRuObQSW2GFpVMUjxu9A==}
     hasBin: true
 
   fastparse@1.1.2:
@@ -2526,7 +2526,7 @@ snapshots:
 
   '@astrojs/rss@3.0.0':
     dependencies:
-      fast-xml-parser: 4.2.7
+      fast-xml-parser: 4.5.6
       kleur: 4.1.5
 
   '@astrojs/sitemap@3.0.1':
@@ -3491,7 +3491,7 @@ snapshots:
     dependencies:
       fast-string-width: 3.0.2
 
-  fast-xml-parser@4.2.7:
+  fast-xml-parser@4.5.6:
     dependencies:
       strnum: 1.0.5
 
